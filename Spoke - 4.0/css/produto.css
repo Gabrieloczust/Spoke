@@ -1,0 +1,33 @@
+/*Calculadora*/
+body{background: lightsteelblue;}
+.container-970{width: 970px;display: inline-block;}
+.container-calculadora{background: lightsteelblue; float: left; width: 100%; padding: 3.5% 0; text-align: center}
+.container-calculadora h1{ text-align: center;color: darkblue; text-transform: uppercase }
+.nomes{text-align: center}
+.container-calculadora .legenda{background: transparent; display: inline-block; margin: 3%;text-align: center; width: 31%; height: 56px; border-bottom: 10px solid white; border-radius: 10px; }
+.container-calculadora .legenda-input{text-transform: capitalize;background: transparent;border: none;height: 100%; width: 100%;padding: 3%; text-align: center}
+.calculadora{width: 100%; display: block; margin: 0 auto; height: auto;}
+.calculadora input{width: 31%; margin: 2% 1%; height: 50px; text-align: center;border: none; border-radius: 25px}
+.container-calculadora .acao{float: right;margin: 3% 2% 1% 0;width: 20%;background-color: rgb(52, 120, 210);color: white;border-radius: 20px;height: 45px;
+border: none;}
+
+@media only screen and (max-width: 970px) {
+    .container-calculadora{
+        width: 100%
+    }
+    .container-970{
+        width: 100%;
+    }
+    .nomes{
+        width: 100%;
+    }
+    .container-calculadora .legenda{
+        width: 50%;
+    }
+    .calculadora input, #resultado, .container-970 .acao{
+        width: 50%;
+        display: block;
+        margin: 3% auto;
+        float: none;
+    }
+}

@@ -1,0 +1,36 @@
+/*Cadastro*/
+#registro{
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .form-control, .form-group{
+    display: inline;
+    width: 48%;
+    margin: 1% .5%;
+  }
+
+  legend{
+    text-indent: 2%;
+  }
+
+  
+  @media (max-width:767px){
+    #get-in-touch{
+        padding-top: 5%;
+      }
+    .form-control, .form-group{
+        display: block;
+        width: 100%;
+        margin-top: 2%;
+      }
+    .botao{
+      display: block;
+      width: 200px;
+      margin: 4% auto;
+    }
+    #btn-registro,
+    #btn-login{
+      float: none;
+    }
+  }

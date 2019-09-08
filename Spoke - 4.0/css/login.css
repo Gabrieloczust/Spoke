@@ -1,0 +1,89 @@
+.uppercase:valid { text-transform: uppercase; }
+
+/*LOGIN*/
+#get-in-touch {
+  padding: 11% 0;
+}
+
+#login{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.botao{
+  margin: 3% auto 10% auto;
+  border-width: 0;
+  color: white;
+  border-radius: 25px;
+  font-family: 'Roboto-medium'; 
+  font-size: 15px; 
+  padding: 8px 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#btn-login{
+  float: right;
+  background: #ff641b;
+  border-color: #ff641b; 
+}
+
+#btn-login:hover,
+#btn-login:focus {
+  background: #e84a00;
+}
+
+#btn-registro{
+  float: left;
+  background: #006eb9;
+  border-color: #006eb9; 
+}
+
+#btn-registro:hover,
+#btn-login:focus{
+  background: #2f87c2;
+}
+
+.problem-group{
+  text-align: center;
+  margin-top: 5%;
+  clear: both;
+}
+#deslogar{margin: 17%}
+
+@media (min-width: 768px) and (max-width:999px){
+  #login{
+    width: 300px;
+  }
+
+}
+
+@media (max-width:767px){
+  #get-in-touch{
+    padding-top: 15%;
+  }
+  #login{
+    width: 300px;
+  }
+  .botao{
+    display: block;
+    width: 200px;
+    margin: 4% auto;
+  }
+  #btn-registro,
+  #btn-login{
+    float: none;
+  }
+
+}
+
+@media (max-width:500px){
+  #get-in-touch{
+    padding-top: 20%;
+  }
+  #login{
+    width: 70%;
+  }
+
+}

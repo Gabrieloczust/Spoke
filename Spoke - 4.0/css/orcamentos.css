@@ -1,0 +1,12 @@
+/*Orçamentos*/
+.tabela{
+    width: 94%;
+    max-width: 94%;
+    margin: 0% 3% 3% 3%;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+.tabela tr{text-align: center}
+.tabela th{text-align: center;}
+.tabela td{text-align: center}
